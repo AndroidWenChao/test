@@ -1,0 +1,17 @@
+package game;
+
+import javax.swing.JFrame;
+
+public class gameMain extends JFrame {
+	public gameMain(){
+		snackWin win=new snackWin();
+		this.add(win);
+		this.setTitle("Ã∞≥‘…ﬂ1.0");
+		this.setSize(435, 390);
+		this.setLocation(200, 200);
+		this.setVisible(true);
+	}
+   public static void main(String[] args){
+	   new gameMain();
+   }
+}
